@@ -1,0 +1,25 @@
+@import '../node_modules/materialize-css/dist/css/materialize.css';
+@import "//fonts.googleapis.com/icon?family=Material+Icons";
+
+
+
+.rowBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-footer{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow:hidden;
+}
+.header {
+  font-family:'Georgia';
+}
+
+#search{
+	width:500px;
+}
+

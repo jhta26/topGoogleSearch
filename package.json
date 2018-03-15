@@ -1,0 +1,26 @@
+{
+  "name": "hire_me_dmetrics",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chai": "^4.1.2",
+    "deep-freeze": "0.0.1",
+    "materialize-css": "^0.100.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.1",
+    "recompose": "^0.26.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.3.15"
+  }
+}
