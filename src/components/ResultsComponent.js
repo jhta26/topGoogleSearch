@@ -7,7 +7,7 @@ var ResultsComponent = ({ results }) => {
   var image = realResults.image
 
   return (
-    <div className="ResultsComponent center-align">
+    <div className="ResultsComponent center-align animated flipInY">
       <h5>Top Google Result</h5>
       <div className="card #263238 blue-grey darken-4">
         <div class="card-image">
