@@ -6,6 +6,7 @@ export default class SearchBarComponent extends React.Component {
   };
 
   _handleClick = event => {
+    event.preventDefault()
     this.props.searchGoogle({
       googleSearch: this.state.googleSearch,
       showResults: true
@@ -20,7 +21,8 @@ export default class SearchBarComponent extends React.Component {
   render() {
     return (
       <div className="SearchBarComponent">
-        <form className="col s12">
+        <form className="col s12"
+        onSubmit = {this._handleClick}>
           <div className="input-field row s6">
             <input
               placeholder="search"
