@@ -5,12 +5,12 @@ const FooterComponent = () =>
     <div className="container">
       <div className="row">
         <div className="col l6 s12">
-          <h5 className="white-text">Dmetrics</h5>
+          <h5 className="white-text">Top Google Search</h5>
         </div>
       </div>
     </div>
     <div className="footer-copyright">
-      <div className="container">© 2017 Hire Me Dmetrics</div>
+      <div className="container">© 2017 Top Google Search</div>
     </div>
   </footer>;
 
