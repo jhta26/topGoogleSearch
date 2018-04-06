@@ -12,7 +12,6 @@ var ResultsComponent = ({ results }) => {
       <div className="card #263238 blue-grey darken-4">
         <div class="card-image">
               <img src={image}/>
-             
             </div>
         <div className="card-content white-text">
           <span className="card-title">
