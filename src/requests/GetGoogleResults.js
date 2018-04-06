@@ -6,6 +6,7 @@ async function GetGoogleResults(googleSearch) {
             `https://www.googleapis.com/customsearch/v1?key=${env.GOOGLE_API_KEY}&cx=${env.CX}&q=${googleSearch.googleSearch}`, { method: 'GET' }
         )
         let results = await response.json()
+        console.log(results)
         var data = {
             title: results.items[0].title,
             URL: results.items[0].formattedUrl
