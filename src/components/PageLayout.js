@@ -15,7 +15,6 @@ export default function PageLayout(props) {
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" />
         </div>
       </div>
-      {props.children[3]}
     </div>
   );
 }

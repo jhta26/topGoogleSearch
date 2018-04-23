@@ -1,6 +1,5 @@
 import React from 'react';
 import PageLayout from './PageLayout';
-import FooterComponent from './FooterComponent';
 import HeaderComponent from './HeaderComponent';
 import SearchBarComponent from './SearchBarComponent';
 import ResultsComponent from './ResultsComponent';
@@ -16,7 +15,7 @@ export default function GoogleResultsPage({
         <HeaderComponent />
         <SearchBarComponent searchGoogle={searchGoogle} />
         {showResults ? <ResultsComponent results={results} /> : null}
-        <FooterComponent />
+        
       </PageLayout>
     </div>
   );

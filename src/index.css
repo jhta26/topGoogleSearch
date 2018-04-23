@@ -8,13 +8,13 @@
     flex-direction: column;
 }
 
-.page-footer{
+/*.page-footer{
 	position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     overflow:hidden;
-}
+}*/
 .header {
   font-family:'Georgia';
 }
